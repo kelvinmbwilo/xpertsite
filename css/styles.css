@@ -630,10 +630,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 .parlex-back {
   padding-top: 15px;
-  background-color: transparent;
-  background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.99), rgba(228, 230, 229, 0.99) 99%);
-  background-image: -o-linear-gradient(rgba(228, 230, 229, 0.99), rgba(228, 230, 229, 0.99) 99%);
-  background-image: linear-gradient(rgba(228, 230, 229, 0.99), rgba(228, 230, 229, 0.99) 99%);
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
+    background-image: -o-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90)));
+    background-image: linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
 }
 .wrap {
   margin-top: 40px;
@@ -667,7 +667,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: #F3F3F3;
   font-size: 14px;
   line-height: 25px;
   text-align: center;
@@ -732,10 +732,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 .parlex3-back {
   padding-top: 15px;
-  background-color: transparent;
-  background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
-  background-image: -o-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90)));
-  background-image: linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
+    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
+    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 76%);
 }
 
 /* portfolio */
@@ -866,15 +866,15 @@ box-shadow: 5px 5px 0px #20AE61;
 .portfolio-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: white;
+  color: #44574F;
   text-align: center;
 }
 .service-heading {
-  color: #44574F;
+  color: #F3F3F3;
   font-family: Oswald;
 }
 .portfolio-heading {
-  color: white;
+  color: #44574F;
     font-family: Oswald;
 }
 .parlex4 {
@@ -887,18 +887,18 @@ box-shadow: 5px 5px 0px #20AE61;
 .parlex4-back {
   padding-top: 15px;
     background-color: transparent;
-    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
-    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
-    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 76%);
+    background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
+    background-image: -o-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90)));
+    background-image: linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
 }
 .ourplan-heading {
-  color: #44574F;
+  color: #f3f3f3;
     font-family: Oswald;
 }
 .our-plan-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: #f3f3f3;
   font-size: 15px;
   text-align: center;
 }
@@ -1002,7 +1002,7 @@ box-shadow: 5px 5px 0px #20AE61;
   z-index: 999;
   width: 100%;
   height: auto;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(152, 155, 163, 0.6);
 }
 .navbar {
 }
@@ -1014,15 +1014,15 @@ box-shadow: 5px 5px 0px #20AE61;
   background-color: #ed5565;
 }
 .parlex5 {
-    background: url('../images/icons/dots.jpg');
+    /*background: url('../images/icons/dots.jpg');*/
     padding-top: 0px;
 }
 .parlex5-back {
   padding-top: 15px;
     background-color: transparent;
-    background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
-    background-image: -o-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90)));
-    background-image: linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
+    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
+    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
+    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 76%);
 }
 .team {
   color: white;
@@ -1135,7 +1135,7 @@ box-shadow: 5px 5px 0px #20AE61;
   background-color: rgba(33, 219, 135, 0.74);
 }
 .parlex7 {
-  background-color: #E4E6E5;
+  background-color: #F3F3F3;
   background-image: none;
   background-position: 0% 0%;
   background-size: auto;
@@ -1152,7 +1152,7 @@ box-shadow: 5px 5px 0px #20AE61;
   color: #44574F;
 }
 .service-head {
-  color: #44574F;
+  color: #f3f3f3;
   font-family: "Terminal Dosis Light";
 }
 .about-text {
@@ -1223,23 +1223,23 @@ box-shadow: 5px 5px 0px #20AE61;
   
 }
 .team-parlex {
-  background-image: url('../images/icons/dots.jpg');
+  /*background-image: url('../images/icons/dots.jpg');*/
 }
-.portfolio-parlex .our-plan-parlex{
+.portfolio-parlex {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .about-parlex {
   padding-top: 15px;
-  background-color: #E4E6E5;
+  background-color: #F3F3F3;
 }
 .parlex8-back {
   padding-top: 15px;
-  background-color: transparent;
-    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 56%);
-    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 56%);
-    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 56%);
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(250, 251, 254, 0.90), rgba(250, 251, 254, 0.90));
+    background-image: -o-linear-gradient(rgba(250, 251, 254, 0.90), rgba(102, 102, 107, 0.90)));
+    background-image: linear-gradient(rgba(250, 251, 254, 0.90), rgba(250, 251, 254, 0.90));
 }
 .contact-heading {
   color: #44574F;
@@ -1378,7 +1378,7 @@ font-weight: 600;
 font-size: 18px;
 }
 
-.service-parlex {
+.service-parlex,.our-plan-parlex{
   padding-top: 0px;
   background-image: url('../images/icons/dots.jpg');
   /*background-size: cover;*/
@@ -1387,14 +1387,14 @@ font-size: 18px;
 }
 
 .portfolio-parlex {
-  background: url('../images/icons/dots.jpg');
+  /*background: url('../images/icons/dots.jpg');*/
   padding-top: 0px;
   /*background-size: cover;*/
   /*background-repeat: no-repeat;*/
   /*background-attachment: fixed;*/
 }
 
-.message {height: 150px !important;}
+.message {height: 75px !important;}
 
 .fotter-text {
   margin-top: 20px;
@@ -1639,6 +1639,7 @@ font-size: 18px;
 /* Effect 5 */
 .hi-icon-effect-5 .hi-icon {
   box-shadow: 0 0 0 4px rgba(255,255,255,1);
+    background: rgba(152,200,77,1);
   overflow: hidden;
   -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
   -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
@@ -1651,7 +1652,7 @@ font-size: 18px;
 
 .no-touch .hi-icon-effect-5 .hi-icon:hover {
   background: rgba(255,255,255,1);
-  color: #3DE6BA;
+  color: rgba(152,200,77);
   box-shadow: 0 0 0 8px rgba(255,255,255,0.3);
 }
 
@@ -1928,16 +1929,17 @@ html { overflow-y: scroll; }
     padding: 20px;
 }
 
-.service-comb p{
+.service-text{
     font-family: 'Terminal Dosis Light';
-    color: black;
-    font-size: 21px;
+    color: #ffffff !important;
 }
 
 .parlex4-back h3{
     text-align: center;
+    color: #f3f3f3;
 }
 .parlex4-back p{
     text-align: center;
+    color: #f3f3f3;
 }
 

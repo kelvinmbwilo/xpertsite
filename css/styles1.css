@@ -18,7 +18,7 @@ body {
 }
 h1 {
   margin: 10px 0px;
-  color: #44574F;
+  color: white;
   font-size: 40px;
   line-height: 45px;
   font-weight: 700;
@@ -39,7 +39,7 @@ h3 {
 h4 {
   margin: 0px 0px 10px;
   padding-top: 5px;
-  color: #44574F;
+  color: white;
   font-size: 20px;
   line-height: 24px;
   font-weight: 900;
@@ -85,7 +85,7 @@ p {
   border-radius: 5px;
   background-color: #ed5565;
   box-shadow: none;
-  color: #44574F;
+  color: white;
 }
 .header {
   margin-top: 0px;
@@ -272,8 +272,10 @@ a:active {
 
 .sp-content {
     background: url(../images/slider/back.png) no-repeat scroll 0 0;
+    
     position: relative;
     width: 100%;
+    
     /* background-size: cover; */
     height: 100%;
     overflow: hidden;
@@ -291,7 +293,7 @@ a:active {
     width: 100%;
     height: 100%;
     
-    background-color: rgba(12, 19, 29, 0.74);
+    background-color: rgba(12, 19, 29, 0.94);
     overflow: hidden;
 }
 
@@ -602,13 +604,13 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 .menu-li:hover {
   border-top-style: none;
   background-color: #BAC6C7;
-  color: #44574F;
+  color: white;
   font-weight: 700;
 }
 .menu-li:active {
   border-top-style: none;
   background-color: #2fde8f;
-  color: #44574F;
+  color: white;
   font-weight: 700;
 }
 .parlex {
@@ -631,15 +633,15 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 .parlex-back {
   padding-top: 15px;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.93), rgba(228, 230, 229, 0.93) 86%);
-  background-image: -o-linear-gradient(rgba(228, 230, 229, 0.93), rgba(228, 230, 229, 0.93) 86%);
-  background-image: linear-gradient(rgba(228, 230, 229, 0.93), rgba(228, 230, 229, 0.93) 86%);
+  background-image: -webkit-linear-gradient(rgba(102, 101, 96, 0.89), rgba(102, 101, 96, 0.89) 56%);
+  background-image: -o-linear-gradient(rgba(102, 101, 96, 0.89), rgba(102, 101, 96, 0.89) 56%);
+  background-image: linear-gradient(rgba(102, 101, 96, 0.89)5, rgba(102, 101, 96, 0.89) 56%);
 }
 .wrap {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 20px 10px;
-  border-bottom: 0px none #44574F;
+  border-bottom: 0px none black;
   color: #333;
   }
 .service-combo {
@@ -667,7 +669,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: white;
   font-size: 14px;
   line-height: 25px;
   text-align: center;
@@ -700,7 +702,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 
 .sepreater.service {
-  border-bottom-color: #44574F;
+  border-bottom-color: white;
   box-shadow: none;
 }
 .parlex2 {
@@ -722,7 +724,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   margin: 20px auto;
   padding-top: 0px;
   padding-bottom: 0px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .parlex3 {
@@ -733,9 +735,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 .parlex3-back {
   padding-top: 15px;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(rgba(70, 185, 229, 0.90), rgba(70, 185, 229, 0.90));
-  background-image: -o-linear-gradient(rgba(70, 185, 229, 0.90), rgba(70, 185, 229, 0.90)));
-  background-image: linear-gradient(rgba(70, 185, 229, 0.90), rgba(70, 185, 229, 0.90));
+  background-image: -webkit-linear-gradient(rgba(70, 185, 229, 0.70), rgba(70, 185, 229, 0.70));
+  background-image: -o-linear-gradient(rgba(70, 185, 229, 0.70), rgba(70, 185, 229, 0.70)));
+  background-image: linear-gradient(rgba(70, 185, 229, 0.70), rgba(70, 185, 229, 0.70));
 }
 
 /* portfolio */
@@ -866,15 +868,15 @@ box-shadow: 5px 5px 0px #20AE61;
 .portfolio-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .service-heading {
-  color: #44574F;
+  color: white;
   font-family: Oswald;
 }
 .portfolio-heading {
-  color: #44574F;
+  color: white;
     font-family: Oswald;
 }
 .parlex4 {
@@ -886,36 +888,36 @@ box-shadow: 5px 5px 0px #20AE61;
 }
 .parlex4-back {
   padding-top: 15px;
-    background-color: transparent;
-    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
-    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
-    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 76%);
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(#98CA4D, rgba(152, 202, 77, 0.5));
+  background-image: -o-linear-gradient(#98CA4D, rgba(152, 202, 77, 0.5));
+  background-image: linear-gradient(#98CA4D, rgba(152, 202, 77, 0.5));
 }
 .ourplan-heading {
-  color: #44574F;
+  color: white;
     font-family: Oswald;
 }
 .our-plan-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: white;
   font-size: 15px;
   text-align: center;
 }
 .our-plan-paragraph {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .process-paragraph {
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .porfolio-paragraph {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .plan1 {
@@ -945,7 +947,7 @@ box-shadow: 5px 5px 0px #20AE61;
   margin-bottom: 30px;
   padding: 0px 10px 20px;
   border-bottom: 2px dashed #eee;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .plan-1-butn {
@@ -956,7 +958,7 @@ box-shadow: 5px 5px 0px #20AE61;
   border-radius: 0px;
   background-color: #ffce54;
   box-shadow: none;
-  color: #44574F;
+  color: black;
   text-align: center;
   text-decoration: none;
 }
@@ -974,7 +976,7 @@ box-shadow: 5px 5px 0px #20AE61;
   border-radius: 0px;
   background-color: #ffce54;
   box-shadow: none;
-  color: #44574F;
+  color: white;
 }
 .plan-1-butn.plan-1-butn2 {
   background-color: #ed5565;
@@ -1021,7 +1023,7 @@ box-shadow: 5px 5px 0px #20AE61;
 }
 .parlex5-back {
   padding-top: 15px;
-  background-color: rgba(6, 170, 239, 0.94);
+  background-color: rgba(0, 0, 0, 0.74);
 }
 .team {
   color: white;
@@ -1090,7 +1092,7 @@ box-shadow: 5px 5px 0px #20AE61;
   box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.26);
 }
 .team-des {
-  background-color: #44574F;
+  background-color: white;
 }
 .team-social {
   background-color: #ddd;
@@ -1132,7 +1134,7 @@ box-shadow: 5px 5px 0px #20AE61;
   background-color: rgba(33, 219, 135, 0.74);
 }
 .parlex7 {
-  background-color: #E4E6E5;
+  background-color: #48cfad;
   background-image: none;
   background-position: 0% 0%;
   background-size: auto;
@@ -1143,13 +1145,13 @@ box-shadow: 5px 5px 0px #20AE61;
   background-color: transparent;
 }
 .our-process-heading {
-  color: #44574F;
+  color: white;
 }
 .our-process-sys {
-  color: #44574F;
+  color: white;
 }
 .service-head {
-  color: #44574F;
+  color: white;
   font-family: "Terminal Dosis Light";
 }
 .about-text {
@@ -1191,21 +1193,21 @@ box-shadow: 5px 5px 0px #20AE61;
 .exp-back {
   padding-top: 15px;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(rgba(70, 185, 229, 0.90), #46B9E5);
-  background-image: -o-linear-gradient(rgba(70, 185, 229, 0.90), #46B9E5);
-  background-image: linear-gradient(rgba(70, 185, 229, 0.90), #46B9E5);
+  background-image: -webkit-linear-gradient(rgba(70, 185, 229, 0.70), #46B9E5);
+  background-image: -o-linear-gradient(rgba(70, 185, 229, 0.70), #46B9E5);
+  background-image: linear-gradient(rgba(70, 185, 229, 0.70), #46B9E5);
 }
 .exp-heading {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  color: #44574F;
+  color: white;
 }
 .exp-para {
   display: block;
   margin: 20px auto;
   padding-top: 0px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .exp-des {
@@ -1231,28 +1233,28 @@ box-shadow: 5px 5px 0px #20AE61;
 }
 .about-parlex {
   padding-top: 15px;
-  background-color: #E4E6E5;
+  background-color: #98CA4D;
 }
 .parlex8-back {
   padding-top: 15px;
   background-color: transparent;
-    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 56%);
-    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 56%);
-    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 56%);
+    background-image: -webkit-linear-gradient(rgba(102, 101, 96, 0.89), rgba(102, 101, 96, 0.89) 56%);
+    background-image: -o-linear-gradient(rgba(102, 101, 96, 0.89), rgba(102, 101, 96, 0.89) 56%);
+    background-image: linear-gradient(rgba(102, 101, 96, 0.89)5, rgba(102, 101, 96, 0.89) 56%);
 }
 .contact-heading {
-  color: #44574F;
+  color: white;
     font-family: Oswald;
 }
 .contact-para {
   margin-top: 20px;
   margin-bottom: 30px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .contac-map {
   background-color: transparent;
-  color: #44574F;
+  color: black;
 }
 
 
@@ -1310,17 +1312,17 @@ margin-left: 15px;
   padding-top: 0px;
 }
 .contact-col-head {
-  color: #44574F;
+  color: white;
 }
 .contact-col-text {
-  border-right: 4px solid #44574F;
-  border-left: 4px none #44574F;
-  color: #44574F;
+  border-right: 4px solid white;
+  border-left: 4px none white;
+  color: white;
   text-align: center;
 }
 .contact-col-text-bar-last {
-  border-right: 0px none #44574F;
-  color: #44574F;
+  border-right: 0px none white;
+  color: white;
   text-align: center;
 }
 .footer-parlex {
@@ -1378,19 +1380,19 @@ font-size: 18px;
 }
 
 .service-parlex {
-  padding-top: 0px;
-  background-image: url('../images/back1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    padding-top: 0px;
+    background-image: url('../images/back1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .portfolio-parlex {
-  background: url('../images/back1.jpg');
-  padding-top: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url('../images/back1.jpg');
+    padding-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .message {height: 150px !important;}
@@ -1438,7 +1440,7 @@ font-size: 18px;
   border: 1px solid #ed5565;
 }
 .cal-col-1 {
-  border-right: 1px solid #44574F;
+  border-right: 1px solid white;
 }
 @media (max-width: 991px) {
   .parlex {
@@ -1915,7 +1917,7 @@ html { overflow-y: scroll; }
 }
 .service-parlex .w-row h3{
     font-family: "Maven Pro";
-    color: darkslategray;
+    color: #DAF4E9;
     font-size: 28px;
     padding: 20px;
     text-align: center;

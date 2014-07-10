@@ -281,7 +281,7 @@ a:active {
 }
 
 .sp-parallax-bg {
-    /*background: url(../images/slider/cloud.png) repeat-x scroll 0 0;*/
+    /*background: url(../images/icons/dots.jpg);*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
     /*background-size: cover;*/
@@ -866,7 +866,7 @@ box-shadow: 5px 5px 0px #20AE61;
 .portfolio-text {
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #44574F;
+  color: white;
   text-align: center;
 }
 .service-heading {
@@ -874,7 +874,7 @@ box-shadow: 5px 5px 0px #20AE61;
   font-family: Oswald;
 }
 .portfolio-heading {
-  color: #44574F;
+  color: white;
     font-family: Oswald;
 }
 .parlex4 {
@@ -1014,14 +1014,15 @@ box-shadow: 5px 5px 0px #20AE61;
   background-color: #ed5565;
 }
 .parlex5 {
-  background-image: url('../images/Fotolia_28906971_Subscription_XXL.jpg');
-  background-size: 350px;
-  background-repeat: repeat;
-  background-attachment: fixed;
+    background: url('../images/icons/dots.jpg');
+    padding-top: 0px;
 }
 .parlex5-back {
   padding-top: 15px;
-  background-color: rgba(6, 170, 239, 0.94);
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
+    background-image: -o-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90)));
+    background-image: linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
 }
 .team {
   color: white;
@@ -1062,7 +1063,7 @@ box-shadow: 5px 5px 0px #20AE61;
   padding: 15px;
 }
 .team-image {
-  background-color: rgba(72, 207, 173, 0.68);
+  background-color: rgba(72, 207, 173, 0.01);
 }
 .team-img {
   display: block;
@@ -1090,10 +1091,10 @@ box-shadow: 5px 5px 0px #20AE61;
   box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.26);
 }
 .team-des {
-  background-color: #44574F;
+    background-color: rgba(72, 207, 173, 0.01);
 }
 .team-social {
-  background-color: #ddd;
+    background-color: rgba(72, 207, 173, 0.01);
 }
 .team-name {
   margin-top: 0px;
@@ -1106,6 +1107,8 @@ box-shadow: 5px 5px 0px #20AE61;
   padding-top: 0px;
   padding-bottom: 25px;
   text-align: center;
+
+
 }
 .facebook {
   display: block;
@@ -1190,10 +1193,10 @@ box-shadow: 5px 5px 0px #20AE61;
 }
 .exp-back {
   padding-top: 15px;
-  background-color: transparent;
-  background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.75), #66666B);
-  background-image: -o-linear-gradient(rgba(102, 102, 107, 0.75), #66666B);
-  background-image: linear-gradient(rgba(102, 102, 107, 0.75), #66666B);
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
+    background-image: -o-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90)));
+    background-image: linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
 }
 .exp-heading {
   display: block;
@@ -1220,9 +1223,7 @@ box-shadow: 5px 5px 0px #20AE61;
   
 }
 .team-parlex {
-  background-image: url('../images/team.png');
-  background-size: 350px;
-  background-attachment: fixed;
+  background-image: url('../images/icons/dots.jpg');
 }
 .portfolio-parlex .our-plan-parlex{
   background-size: cover;
@@ -1386,11 +1387,11 @@ font-size: 18px;
 }
 
 .portfolio-parlex {
-  background: url('../images/back1.jpg');
+  background: url('../images/icons/dots.jpg');
   padding-top: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
 }
 
 .message {height: 150px !important;}
@@ -1931,5 +1932,12 @@ html { overflow-y: scroll; }
     font-family: 'Terminal Dosis Light';
     color: black;
     font-size: 21px;
+}
+
+.parlex4-back h3{
+    text-align: center;
+}
+.parlex4-back p{
+    text-align: center;
 }
 

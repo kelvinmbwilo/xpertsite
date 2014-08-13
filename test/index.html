@@ -49,18 +49,19 @@
 </head>
 <body>
 <!-- HTML5 Video Code "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
-<video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" poster="http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg" width="640" height="360">
-    <source src="../XDA_intro_video.mp4" type="video/mp4" />
-    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm" />
-    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg" />
-    <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+<div class="video"> <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" poster="../xda_logo_greybackground.png" width="1340px" height="760px">
+    <source src="../XDA_intro_video_small_converted.mp4" type="video/mp4" />
+    <source src="../XDA_intro_video_small.webm" type="video/webm" />
+    <source src="../XDA_intro_video_small.ogv" type="video/ogg" />
+    <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="100%" height="760%">
         <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
         <param name="allowFullScreen" value="true" />
         <param name="wmode" value="transparent" />
-        <param name="flashVars" value="config={'playlist':['http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg',{'url':'http%3A%2F%2Fclips.vorwaerts-gmbh.de%2Fbig_buck_bunny.mp4','autoPlay':false}]}" />
-        <img alt="Big Buck Bunny" src="../xda_logo_greybackground.png" width="640" height="360" title="No video playback capabilities, please download the video below" />
+        <param name="flashVars" value="config={'playlist':['../XDA_intro_video_small.mp4',{'url':'../XDA_intro_video_small.mp4','autoPlay':false}]}" />
+        <img alt="Big Buck Bunny" src="../xda_logo_greybackground.png" width="1300px" height="760px" title="No video playback capabilities, please download the video below" />
     </object>
 </video>
+</div>
 
 <!-- Over content -->
 <div class="fix-header" id="home">
@@ -136,8 +137,11 @@
                 <li>
                     <div class="row">
 
-                        <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 20px">
-                            <h1 >We make difference. Are you ready for change?</h1>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <h1>INSPIRED BY PURPOSE.
+                                DRIVEN BY PASSION.
+                            <br>
+                            <button class="btn-ex-one" style="margin-left: 45%">KEEP IN TOUCH</button></h1>
                         </div>
                     </div>
 
@@ -168,15 +172,28 @@
             <div id="about-animation">
                 <div class="wrap">
                     <div class="about">
-                        <h1 class="about-heading">ABOUT</h1>
+                        <!--<h1 class="about-heading">ABOUT</h1>-->
+                        <h1 class="about-heading">“WE ARE A DIGITAL AGENCY WITH A PURPOSE.”</h1>
                         <div class="sepreater"></div>
                     </div>
                     <div>
 
-                        <p class="about-des">We combine expertise to bring digital experience to our clients in digital marketing, branding, web development, and IT to deliver measurable results for our clients.
-                            <br><br>We look to build long term, highly valued and trusted relationships with our clients – we believe that our dedication, professionalism and results keep our customers recommending us by word of mouth marketing time and time again.
-                            <br><br>We are highly specialized Performance Digital Marketing agency.
+                        <p class="about-des">We use technology and disruptive thinking to solve
+
+                            big problems for innovators worldwide.
                         </p>
+
+                        <h1 class="about-heading">YOU’VE PROBABLY NOTICED WE LOVE WHAT WE DO.</h1>
+
+                        <p class="about-des"> We are interdisciplinary zealots dedicated to blending
+
+                        creativity and code, philanthropy and commerce.
+
+                        Each of us is equal parts arts patron and tech junkie.
+
+                        We love what we do, and we love what our clients
+
+                        stand for. We are collaborative, inventive, inspired.</p>
                     </div>
                 </div>
             </div>
@@ -190,20 +207,6 @@
        //////////////////////////////////////////////////////////-->
 
 
-
-<!--///////////////////////////////////////////////////////
-       // Who We Are Section
-       //////////////////////////////////////////////////////////-->
-
-
-
-
-<!--///////////////////////////////////////////////////////
-       // End Who We Are section
-       //////////////////////////////////////////////////////////-->
-
-
-
 <!--///////////////////////////////////////////////////////
        // Service section
        //////////////////////////////////////////////////////////-->
@@ -215,8 +218,7 @@
             <div class="wrap">
                 <div class="service-combo">
                     <div class="services">
-                        <h1 class="service-heading">SERVICES</h1>
-                        <div class="services-text">WHAT WE DO?</div>
+                        <h1 class="service-heading">“THIS IS WHAT WE DO BEST”</h1>
                         <div class="sepreater service"></div>
                     </div>
                     <div class="services-text">“ THE BEST RESULTS ARE OBTAINED BY TASKING THE RIGHT PEOPLE TO THE RIGHT PROJECT ”
@@ -229,49 +231,62 @@
                                 <img src="../DigitalMarketing.png">
                             </div>
                             <h4 class="service-head">Digital Marketing </h4>
-                            <p class="service-text">
-                                We will create your mobile app so that you will always be where your customers are.
-                            </p>
+                            <ul class="service-text">
+                                <li>Email Marketing,</li>
+                                <li>Organic SEO,</li>
+                                <li>Inbound Marketing,</li>
+                                <li>Content Management,</li>
+                                <li>Social Media Management</li>
+                            </ul>
                         </div>
                         <div class="w-col w-col-2">
                             <div class="service-icon">
                                 <img src="../CreativeDesigning.png">
                             </div>
                             <h4 class="service-head">Creative Designing </h4>
-                            <p class="service-text">
-                                <br>
-                                We will create your mobile app so that you will always be where your customers are.
-                            </p>
+                            <ul class="service-text">
+                                <li>Corporate identity</li>
+                                <li>Website interfaces</li>
+                                <li>E-news letter</li>
+                                <li>Advertising campaign</li>
+                                <li>Print media</li>
+                            </ul>
                         </div>
                         <div class="w-col w-col-2">
                             <div class="service-icon">
                                 <img src="../WebMobileDevelopment.png">
                             </div>
                             <h4 class="service-head">Web&Mobile Development</h4>
-                            <p class="service-text">
-                                <br>
-                                We will create your mobile app so that you will always be where your customers are.
-                            </p>
+                            <ul class="service-text">
+                                <li>Mobile Apps</li>
+                                <li>Android Apps</li>
+                                <li>Website development</li>
+                                <li>Website designing</li>
+                            </ul>
                         </div>
                         <div class="w-col w-col-2">
                             <div class="service-icon">
                                 <img src="../SystemDevelopment.png">
                             </div>
                             <h4 class="service-head">System Development</h4>
-                            <p class="service-text">
-                                <br>
-                                We will create your mobile app so that you will always be where your customers are.
-                            </p>
+                            <ul class="service-text">
+                                <li>Business systems</li>
+                                <li>Security systems</li>
+                                <li>Complex systems</li>
+                                <li>Embedded systems</li>
+                            </ul>
                         </div>
                         <div class="w-col w-col-2">
                             <div class="service-icon">
                                 <img src="../ITConsulting.png">
                             </div>
                             <h4 class="service-head">IT Consultation</h4>
-                            <p class="service-text">
-                                <br>
-                                We will create your mobile app so that you will always be where your customers are.
-                            </p>
+                            <ul class="service-text">
+                                <li>Information Management</li>
+                                <li>IT assessments</li>
+                                <li>Cloud assessments</li>
+                                <li>Network Security services</li>
+                            </ul>
                         </div>
                         <div class="w-col w-col-1"></div>
                     </div>
@@ -308,31 +323,29 @@
                     <ul class="grid cs-style-1">
                         <li>
                             <figure>
-                                <img class="portfolio-images" src="../images/portfolio/1.jpg" alt="img01">
+                                <img class="portfolio-images" src="../images/portfolio/ssamo.png" alt="img04">
                                 <figcaption>
-                                    <h3>Camera</h3>
-                                    <span>Jacob Cummings</span>
-                                    <a href="#">Take a look</a>
+                                    <h3>SSAMO WEBSITE</h3>
+                                    <a href="http://ssamomedia.tumblr.com">Take a look</a>
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img class="portfolio-images" src="../images/portfolio/2.jpg" alt="img02">
+                                <!--<img class="portfolio-images" src="../images/portfolio/ssamo.png" alt="img02">-->
+                                <img class="portfolio-images" src="../images/portfolio/ssamo.png" alt="img04">
                                 <figcaption>
-                                    <h3>Music</h3>
-                                    <span>Jacob Cummings</span>
-                                    <a href="#">Take a look</a>
+                                    <h3>SSAMO WEBSITE</h3>
+                                    <a href="http://ssamomedia.tumblr.com">Take a look</a>
                                 </figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure>
-                                <img class="portfolio-images" src="../images/portfolio/4.jpg" alt="img04">
+                                <img class="portfolio-images" src="../images/portfolio/ssamo.png" alt="img04">
                                 <figcaption>
-                                    <h3>Settings</h3>
-                                    <span>Jacob Cummings</span>
-                                    <a href="#">Take a look</a>
+                                    <h3>SSAMO WEBSITE</h3>
+                                    <a href="http://ssamomedia.tumblr.com">Take a look</a>
                                 </figcaption>
                             </figure>
                         </li>
@@ -351,53 +364,53 @@
        // Our-plan section
        //////////////////////////////////////////////////////////-->
 
-<div class="exp our-plan-parlex">
-    <div class="parlex4-back">
-        <div class="w-container">
-            <div class="wrap">
-                <div class="our-plans">
-                    <h1 class="ourplan-heading">Four Reasons to Work with Us</h1>
-                </div>
+<!--<div class="exp our-plan-parlex">-->
+    <!--<div class="parlex4-back">-->
+        <!--<div class="w-container">-->
+            <!--<div class="wrap">-->
+                <!--<div class="our-plans">-->
+                    <!--<h1 class="ourplan-heading">Four Reasons to Work with Us</h1>-->
+                <!--</div>-->
 
-                <div class="w-row">
-                    <div class="w-col w-col-3">
-                        <div class="service-icon">
-                            <img src="http://placehold.it/150x150">
-                        </div>
-                        <h3>Knowledge</h3>
-                        <p>
-                            The field of Digital Marketing changes continuously. We improve ourselves all the time and never stop learning.
-                        </p>
-                    </div>
-                    <div class="w-col w-col-3">
-                        <div class="service-icon">
-                            <img src="http://placehold.it/150x150">
-                        </div>
-                        <h3>Technology</h3>
-                        <p>
-                            Our Xpert team develops and uses its own tech tools, thus producing truly surprising and amazing results.                </p>
-                    </div>
-                    <div class="w-col w-col-3">
-                        <div class="service-icon">
-                            <img src="http://placehold.it/150x150">
-                        </div>
-                        <h3>Quality</h3>
-                        <p>
-                            We provide only professional services, which have been studied and tested. Quality is the key to our success.                </p>
-                    </div>
-                    <div class="w-col w-col-3">
-                        <div class="service-icon">
-                            <img src="http://placehold.it/150x150">
-                        </div>
-                        <h3>Evolution</h3>
-                        <p>
-                            Xpert digital Agency is about future. Our expert team never takes breaks; it not only keeps pace, rather it is way ahead.                </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                <!--<div class="w-row">-->
+                    <!--<div class="w-col w-col-3">-->
+                        <!--<div class="service-icon">-->
+                            <!--<img src="http://placehold.it/150x150">-->
+                        <!--</div>-->
+                        <!--<h3>Knowledge</h3>-->
+                        <!--<p>-->
+                            <!--The field of Digital Marketing changes continuously. We improve ourselves all the time and never stop learning.-->
+                        <!--</p>-->
+                    <!--</div>-->
+                    <!--<div class="w-col w-col-3">-->
+                        <!--<div class="service-icon">-->
+                            <!--<img src="http://placehold.it/150x150">-->
+                        <!--</div>-->
+                        <!--<h3>Technology</h3>-->
+                        <!--<p>-->
+                            <!--Our Xpert team develops and uses its own tech tools, thus producing truly surprising and amazing results.                </p>-->
+                    <!--</div>-->
+                    <!--<div class="w-col w-col-3">-->
+                        <!--<div class="service-icon">-->
+                            <!--<img src="http://placehold.it/150x150">-->
+                        <!--</div>-->
+                        <!--<h3>Quality</h3>-->
+                        <!--<p>-->
+                            <!--We provide only professional services, which have been studied and tested. Quality is the key to our success.                </p>-->
+                    <!--</div>-->
+                    <!--<div class="w-col w-col-3">-->
+                        <!--<div class="service-icon">-->
+                            <!--<img src="http://placehold.it/150x150">-->
+                        <!--</div>-->
+                        <!--<h3>Evolution</h3>-->
+                        <!--<p>-->
+                            <!--Xpert digital Agency is about future. Our expert team never takes breaks; it not only keeps pace, rather it is way ahead.                </p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 
 <!--///////////////////////////////////////////////////////
        // End Our-Plan section
@@ -420,19 +433,19 @@
                     <div class="w-col w-col-3">
                         <div class="team-section">
                             <div class="team-image">
-                                <img class="team-img" src="../_0014_01-2.jpg" alt="52dd1e57e64ce6cb200004f3_image1.png">
+                                <img class="team-img" src="../6.JPG" alt="52dd1e57e64ce6cb200004f3_image1.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">KELVIN MBWILO</h4>
+                                <h4 class="team-name">...</h4>
                                 <div class="team-name-des">Creative Director</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
@@ -440,38 +453,38 @@
                     <div class="w-col w-col-3">
                         <!--<div class="team-section">-->
                             <div class="team-image">
-                                <img class="team-img" src="../_0025_01-2.jpg" alt="52dd1edfe64ce6cb200004fb_image2.png">
+                                <img class="team-img" src="../2.jpg" alt="52dd1edfe64ce6cb200004fb_image2.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">JOHN DOE</h4>
+                                <h4 class="team-name">......</h4>
                                 <div class="team-name-des">Lead Developer</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
                     <div class="w-col w-col-3">
                         <div class="team-section">
                             <div class="team-image">
-                                <img class="team-img" src="../_0032_01-2.jpg" alt="52dd1efcad165eca20000539_image3.png">
+                                <img class="team-img" src="../3.jpg" alt="52dd1efcad165eca20000539_image3.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">TANE NISTON</h4>
+                                <h4 class="team-name">.....</h4>
                                 <div class="team-name-des">Graphic Designer</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
@@ -479,19 +492,19 @@
                     <div class="w-col w-col-3">
                         <div class="team-section">
                             <div class="team-image">
-                                <img class="team-img" src="../_0083_01.JPG" alt="52dd1efcad165eca20000539_image3.png">
+                                <img class="team-img" src="../4.jpg" alt="52dd1efcad165eca20000539_image3.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">TANE NISTON</h4>
+                                <h4 class="team-name">...</h4>
                                 <div class="team-name-des">Graphic Designer</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
@@ -501,19 +514,19 @@
                     <div class="w-col w-col-4">
                         <div class="team-section">
                             <div class="team-image">
-                                <img class="team-img" src="../_0039_01-2.jpg" alt="52dd1e57e64ce6cb200004f3_image1.png">
+                                <img class="team-img" src="../5.jpg" alt="52dd1e57e64ce6cb200004f3_image1.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">JANE ANISTON</h4>
+                                <h4 class="team-name">...</h4>
                                 <div class="team-name-des">Creative Director</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
@@ -521,38 +534,38 @@
                     <div class="w-col w-col-4">
                         <!--<div class="team-section">-->
                             <div class="team-image">
-                                <img class="team-img" src="../_0051_01-2.jpg" alt="52dd1edfe64ce6cb200004fb_image2.png">
+                                <img class="team-img" src="../kelvin.jpg" alt="52dd1edfe64ce6cb200004fb_image2.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">JOHN DOE</h4>
+                                <h4 class="team-name">...</h4>
                                 <div class="team-name-des">Lead Developer</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
                     <div class="w-col w-col-4">
                         <div class="team-section">
                             <div class="team-image">
-                                <img class="team-img" src="../_0065_01-2.jpg" alt="52dd1efcad165eca20000539_image3.png">
+                                <img class="team-img" src="../1.jpg" alt="52dd1efcad165eca20000539_image3.png">
                             </div>
                             <div class="team-des">
-                                <h4 class="team-name">TANE NISTON</h4>
+                                <h4 class="team-name">...</h4>
                                 <div class="team-name-des">Graphic Designer</div>
                             </div>
                             <div class="team-social">
                                 <div class="w-clearfix social-section">
-                                    <a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+                                    <!--<a href="https://www.facebook.com/"><img class="social" src="../images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>-->
                                     <a href="https://www.twitter.com/"><img class="social" src="../images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
                                     <a href="https://www.linkedin.com/"><img class="social" src="../images/social/Linkedin.png" alt="52dd2672e64ce6cb2000053a_Linkedin.png"></a>
                                     <a href="https://plus.google.com/"><img class="social" src="../images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
-                                    <a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>
+                                    <!--<a href="https://www.rss.com/"><img class="social" src="../images/social/RSS.png" alt="52dd26d25b54031d540005b4_RSS.png"></a>-->
                                 </div>
                             </div>
                         </div>
@@ -697,6 +710,7 @@
     </div>
 </div>
 
+
 <!--///////////////////////////////////////////////////////
        // End Contact section
        //////////////////////////////////////////////////////////-->
@@ -773,6 +787,9 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 
+    $(document).ready(function(){
+        $(".sp-slideshow").height($('video').height())
+    });
 </script>
 </body>
 </html>

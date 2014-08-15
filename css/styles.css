@@ -827,8 +827,8 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   top: 0;
   left: 0;
   padding: 20px;
-  background: #2c3f52;
-  color: #ed4e6e;
+  background: #8BC53E;
+  color: #ffffff;
 }
 
 .grid figcaption h3 {
@@ -842,10 +842,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 
 .portfolio-images {
-  border: 10px solid #FFF;
+  /*border: 10px solid #FFF;*/
 margin-bottom: 10px;
 margin-right: 15px;
-box-shadow: 5px 5px 0px #20AE61;
+/*box-shadow: 5px 5px 0px #20AE61;*/
 }
 
 .grid figcaption a {
@@ -1286,7 +1286,7 @@ box-shadow: 5px 5px 0px #20AE61;
   background-attachment: fixed;
 }
 .about-parlex {
-  padding-top: 75px;
+  padding-top: 25px;
   background-color: #F3F3F3;
 }
 .parlex8-back {

@@ -528,9 +528,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     font-family: Oswald;
     letter-spacing: 4px;
     margin-bottom: 20px;
-    font-size: 60px;
-    line-height: 65px;
-    color: #4cc304;
+    font-size: 85px;
+    line-height: 90px;
+    color: #8BC53E;
     text-transform: capitalize;
     padding-top: 15%;
 
@@ -682,7 +682,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   background-repeat: repeat;
   background-attachment: scroll;
 }
-.parlex-back {
+.parlex-back,.parlex5-back {
   padding-top: 15px;
     background-color: transparent;
     background-image: -webkit-linear-gradient(rgba(102, 102, 107, 0.90), rgba(102, 102, 107, 0.90));
@@ -924,7 +924,7 @@ box-shadow: 5px 5px 0px #20AE61;
   text-align: center;
 }
 .service-heading {
-  color: #F3F3F3;
+  color: #8BC541;
   font-family: Oswald;
 }
 .portfolio-heading {
@@ -1071,13 +1071,13 @@ box-shadow: 5px 5px 0px #20AE61;
     /*background: url('../images/icons/dots.jpg');*/
     padding-top: 0px;
 }
-.parlex5-back {
-  padding-top: 15px;
-    background-color: transparent;
-    background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
-    background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);
-    background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 76%);
-}
+/*.parlex5-back {*/
+  /*padding-top: 15px;*/
+    /*background-color: transparent;*/
+    /*background-image: -webkit-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);*/
+    /*background-image: -o-linear-gradient(rgba(228, 230, 229, 0.89), rgba(228, 230, 229, 0.89) 76%);*/
+    /*background-image: linear-gradient(rgba(228, 230, 229, 0.89)5, rgba(228, 230, 229, 0.89) 76%);*/
+/*}*/
 .team {
   color: white;
   letter-spacing: 0px;
@@ -1103,7 +1103,7 @@ box-shadow: 5px 5px 0px #20AE61;
 }
 
 .team-text {
-  color: #333;
+  color: #fff;
 }
 .team-text-para {
   display: block;
@@ -1117,7 +1117,7 @@ box-shadow: 5px 5px 0px #20AE61;
   padding: 15px;
 }
 .team-image {
-  background-color: rgba(72, 207, 173, 0.01);
+  background-color: rgba(139, 197, 65, 0.91);
 }
 .team-img {
   display: block;
@@ -1148,19 +1148,20 @@ box-shadow: 5px 5px 0px #20AE61;
     background-color: rgba(72, 207, 173, 0.01);
 }
 .team-social {
-    background-color: rgba(72, 207, 173, 0.01);
+    background-color: rgba(139, 197, 65, 0.01);
 }
 .team-name {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 25px 5px 10px;
-  color: #888;
+  color: #fff;
   text-align: center;
 }
 .team-name-des {
   padding-top: 0px;
   padding-bottom: 25px;
   text-align: center;
+    color:#fff ;
 
 
 }
@@ -1181,8 +1182,8 @@ box-shadow: 5px 5px 0px #20AE61;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 20px;
-  padding-left: 25px;
+  padding-left: 25%;
+  /*padding-left: 25%;*/
 }
 
 .testi-bg {
@@ -1206,7 +1207,7 @@ box-shadow: 5px 5px 0px #20AE61;
   color: #44574F;
 }
 .service-head {
-  color: #f3f3f3;
+  color: #8BC541;;
   font-family: "Terminal Dosis Light";
 }
 .about-text {
@@ -1277,7 +1278,7 @@ box-shadow: 5px 5px 0px #20AE61;
   
 }
 .team-parlex {
-  /*background-image: url('../images/icons/dots.jpg');*/
+  background-image: url('../images/icons/dots.jpg');
 }
 .portfolio-parlex {
   background-size: cover;
@@ -1285,7 +1286,7 @@ box-shadow: 5px 5px 0px #20AE61;
   background-attachment: fixed;
 }
 .about-parlex {
-  padding-top: 15px;
+  padding-top: 75px;
   background-color: #F3F3F3;
 }
 .parlex8-back {
@@ -1432,7 +1433,7 @@ font-weight: 600;
 font-size: 18px;
 }
 
-.service-parlex,.our-plan-parlex{
+.service-parlex,.team-parlex{
   padding-top: 0px;
   background-image: url('../images/icons/dots.jpg');
   /*background-size: cover;*/
